@@ -1,4 +1,4 @@
-# Eggtart Game
+# Phaser Game
 
 A production-ready **Phaser 4 + TypeScript + Vite** game boilerplate, structured after the
 [official Phaser template](https://github.com/phaserjs/template-vite-ts) with a few best-practice
@@ -11,16 +11,16 @@ demo scene.
 ## Quick start
 
 ```bash
-npm install
-npm run dev        # dev server at http://localhost:8080
+yarn install
+yarn dev        # dev server at http://localhost:8080
 ```
 
-| Script | Does |
-| --- | --- |
-| `npm run dev` | Start the Vite dev server (HMR). |
-| `npm run build` | Production build to `dist/`. |
-| `npm run preview` | Serve the production build locally. |
-| `npm run typecheck` | Type-check without emitting (`tsc --noEmit`). |
+| Script           | Does                                          |
+| ---------------- | --------------------------------------------- |
+| `yarn dev`       | Start the Vite dev server (HMR).              |
+| `yarn build`     | Production build to `dist/`.                  |
+| `yarn preview`   | Serve the production build locally.           |
+| `yarn typecheck` | Type-check without emitting (`tsc --noEmit`). |
 
 ## Project structure
 
